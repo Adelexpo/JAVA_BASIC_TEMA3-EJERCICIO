@@ -1,10 +1,14 @@
 public class EjercicioTema3 {
     public static void main(String[] args) {
 
-        String Ciudad1 = " Barcelona";
-        String Ciudad2 = "Paris";
-        String Ciudad3 = "Roma";
+        //Creamos el array de tipo String
+        String[] Ciudades = new String[]{"Barcelona ", "Paris ", "Roma"};
 
-    System.out.println(Ciudad1 + " " + Ciudad2 + " " + Ciudad3);
+        //Recorremos el array y mostramos su contenido
+        for(int i = 0; i < Ciudades.length; i++) {
+            System.out.print(Ciudades[i]);
+        }
+
     }
 }
+
